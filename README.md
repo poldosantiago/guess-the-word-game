@@ -2,7 +2,7 @@
 
 Jogo da forca. O projeto faz parte do desafio proposto pelo site [devchallenges.io](https://devchallenges.io).
 
-Para conferir o resultado, clique [aqui](https://qr-code-generator-taupe-omega.vercel.app/).
+Para conferir o resultado, clique [aqui](https://guess-the-word-game-eta.vercel.app/).
 
 A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/37).
 
