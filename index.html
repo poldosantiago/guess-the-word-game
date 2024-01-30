@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Word Game</title>
+
+    <link rel="stylesheet" href="./assets/css/base.css">
+</head>
+<body>
+    <main class="game_panel">
+        <h2 class="game_panel__title">
+            <span>Word Scramblle</span>
+        </h2>
+
+        <p class="game_panel__scrambled_word" data-scrambled-word>loading...</p>
+
+        <div class="info_panel">
+            <p class="info_panel__tries">
+                Tries (<span data-tries-scoreboard>0</span>/<span>5</span>)
+                <div class="info_panel__tries_panel">
+                    <span data-tries-circle="1" class=""></span>
+                    <span data-tries-circle="2" class=""></span>
+                    <span data-tries-circle="3" class=""></span>
+                    <span data-tries-circle="4" class=""></span>
+                    <span data-tries-circle="5" class=""></span>
+                </div>
+            </p>
+            <p class="info_panel__mistakes">
+                Mistakes: 
+                <span class="info_panel__mistakes_words" data-mistakes-letters></span>
+            </p>
+        </div>
+
+        <form action="" class="words_form">
+            <fieldset class="words_form__input_field" data-input-field>
+                <!-- as tags são carregadas dinamicamente -->
+                <!-- <input type="text" maxlength="1" class="words_form__input" data-input-number-letter="" data-input-letter="">
+                <input type="text" maxlength="1" class="words_form__input" data-input-number-letter="" data-input-letter="">
+                <input type="text" maxlength="1" class="words_form__input" data-input-number-letter="" data-input-letter=""> -->
+            </fieldset>
+
+            <fieldset class="words_form__button_field">
+                <button class="words_form__button" data-btn="random">Random</button>
+                <button class="words_form__button" data-btn="reset">Reset</button>
+            </fieldset>
+        </form>
+        
+    </main>
+</body>
+</html>
+
+<script src="./index.js" type="module"></script>

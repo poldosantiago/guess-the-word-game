@@ -1,0 +1,138 @@
+.game_panel{
+    width: 420px;
+    min-height: 440px;
+    background-color: var(--color6);
+    border-radius: 10px;
+    padding: 32px;
+
+}
+
+.game_panel__title{
+    background-color: var(--color6);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+/*https://fossheim.io/writing/posts/css-text-gradient/*/
+.game_panel__title span{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f3ec78;
+    background: var(--background-personalizado);
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.game_panel__scrambled_word{
+    background-color: var(--color4);
+    padding: 18px;
+    text-align: center;
+    color: var(--color5);
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    border-radius: 5px;
+    text-transform: lowercase;
+    margin-bottom: 32px;
+}
+
+
+/* info panel*/
+.info_panel{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: var(--color4);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 32px;
+    margin-bottom: 62px;
+}
+
+.info_panel__tries_panel{
+    
+}
+
+.info_panel__tries_panel span{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: var(--color4);
+    margin-right: 5px;
+    clip-path: circle(50%);
+}
+
+.info_panel__tries_panel span.--error{
+    background-color: var(--color2);
+}
+
+
+.info_panel__mistakes_words{
+    color: var(--color7);
+    margin-left: 6px;
+}
+
+
+/* inputs field*/
+.words_form__input_field{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 62px;
+}
+
+.words_form__input{
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: var(--color6);
+    border: 3px solid var(--color4);
+    border-radius: 10px;
+    color: var(--color7);
+
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.words_form__input:focus{
+    outline: none;
+    border-color: var(--color1);
+    /* background-color: #f3ec78; */
+}
+
+.words_form__input:last-child{
+    margin-right: 0px;
+}
+
+
+/* inputs field*/
+.words_form__button_field{
+    display: flex;
+    justify-content: center;
+}
+
+.words_form__button{
+    padding: 12px 42px;
+    color: var(--color7);
+    background-color: var(--color2);
+    border: none;
+    border-bottom: 6px solid var(--color3);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.words_form__button:active{
+    border-bottom: none;
+    transform: translateY(2px);
+}
+
+.words_form__button:first-child{
+    margin-right: 48px;
+}

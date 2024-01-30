@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+/* arquivos dos estilos da página */
+@import url(game_panel.css);
+
+:root{
+	font-family: var(--fonte-padrao);
+	box-sizing: content-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	min-height: 100vh;
+	background: var(--background-personalizado);
+
+	/* position: relative; */
+	/* background-image: url('../../img/bg-illustration.svg');
+	background-repeat: no-repeat;
+	background-position: 75% 65%; */
+}
+
+body::after{
+	content: 'Guess word';
+	color: var(--color2);
+	font-size: 328px;
+	white-space: nowrap;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+	transform: translate(-50%, -50%);
+}

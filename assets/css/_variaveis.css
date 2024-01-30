@@ -1,0 +1,19 @@
+:root{
+	/*cores*/
+	--color1: #7429C6;
+	--color2: #C951E7;
+	--color3: #672171;
+	--color4: #4A5567;
+	--color5: #97A3B6;
+	--color6: #030616;
+	--color7: #F2F5F9;
+
+	/* fontes */
+	--fonte-padrao: 'Outfit', sans-serif;
+
+	/* background personalizado*/
+	--background-personalizado: linear-gradient(126deg, rgba(116,41,198,1) 0%, rgba(201,81,231,1) 100%);
+}	
+
+
+
