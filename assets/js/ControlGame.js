@@ -41,7 +41,7 @@ class ControlGame {
      * @param {string} newLetter
      */
     addOneMoreMistakesLetters(newLetter) {
-        this.mistakesLetters = this._formatterMistakesLetters(this.mistakesLetters, newLetter);
+        this.mistakesLetters.textContent = this._formatterMistakesLetters(this.mistakesLetters.textContent, newLetter);
     }
 
     /**
@@ -57,7 +57,6 @@ class ControlGame {
      * @returns {void}
      */
     addBehaviorIninputLetters() {
-        // console.log('>>>>>>>>>>>>>>> passou aki')
         const inputLetters = document.querySelectorAll('[data-input-number-letter]');
         inputLetters.forEach(inputLetter => {
             inputLetter.addEventListener('keydown', validateteLetter);
@@ -194,7 +193,7 @@ class ControlGame {
      * @returns {void}
      */
     setMistakesText(newText) {
-        this.mistakesLetters = newText;
+        this.mistakesLetters.innerHTML = newText;
     }
 
     /**
