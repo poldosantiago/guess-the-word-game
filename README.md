@@ -4,7 +4,7 @@ Jogo da forca. O projeto faz parte do desafio proposto pelo site [devchallenges.
 
 Para conferir o resultado, clique [aqui](https://guess-the-word-game-eta.vercel.app/).
 
-A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/37).
+A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/guess-the-word).
 
 ## Tecnologias utilizadas 🖥️
 
